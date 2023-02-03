@@ -1,0 +1,28 @@
+<div id="<%= dom_id operation %>">
+  <p>
+    <strong><%= t(:amount) %>:</strong>
+    <%= operation.amount %>
+  </p>
+
+  <p>
+    <strong><%= t(:description) %>:</strong>
+    <%= operation.description %>
+  </p>
+
+  <p>
+    <strong><%= t(:otype) %>:</strong>
+    <%= t(operation.otype) %>
+  </p>
+
+  <p>
+    <strong><%= t(:odate) %>:</strong>
+    <%= format_datetime(operation.odate) %>
+
+  </p>
+
+  <p>
+    <strong><%= t(:category) %>:</strong>
+    <%= operation.category.name %>
+  </p>
+
+</div>

@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @operation %>
+
+<div>
+  <%= link_to t(:edit_operation), edit_operation_path(@operation) %> |
+  <%= link_to t(:back_to_operations), operations_path %>
+
+  <%= button_to t(:destroy_operation), @operation, method: :delete, form: { data: { turbo_confirm: t(:are_u_sure) } }%>
+</div>

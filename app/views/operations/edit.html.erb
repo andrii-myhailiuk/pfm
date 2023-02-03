@@ -1,0 +1,10 @@
+<h1><%=t(:edit_operation)%></h1>
+
+<%= render "form", operation: @operation %>
+
+<br>
+
+<div>
+  <%= link_to t(:show_operation), @operation %> |
+  <%= link_to t(:back_to_operations), operations_path %>
+</div>

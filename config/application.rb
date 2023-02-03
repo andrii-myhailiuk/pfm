@@ -11,6 +11,12 @@ module Pfm
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
 
+    I18n.available_locales = %i[en uk]
+
+    # Set default locale to something else than :en
+    config.i18n.default_locale = :en
+
+
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files

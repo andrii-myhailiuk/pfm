@@ -1,0 +1,36 @@
+uk:
+  hello: "Привіт світ"
+  # Типи витрат/доходів
+  income: "Дохід"
+  passive_income: "Пасивний дохід"
+  special_income: "Спецдохід" #Lotteries, gambling etc
+  expense: "Витрата"
+  special_expense: "Спецвитрата"
+  state_expense: "Платежі державі" # Taxes, fines etc
+  charity: "Благодійність"
+  # Кномки
+  create: "Створити"
+  destroy: "Видалити"
+  # Операції
+  operations: "Операції"
+  new_operation: "Нова операція"
+  show_operation: "Деталі операції"
+  edit_operation: "Редагувати операцію"
+  destroy_operation: "Видалити операцію"
+  amount: "Сума"
+  description: "Опис"
+  otype: "Тип операції"
+  odate: "Дата операції"
+  name: "Назва"
+  back_to_operations: "До операцій"
+  # Категорії
+  category: "Категорія"
+  categories: "Категорії"
+  new_category: "Нова категорія"
+  show_category: "Деталі категорії"
+  edit_category: "Редагувати категорію"
+  editing_category: "Редагування категорії"
+  back_to_categories: "До категорій"
+
+  # Delete
+  are_u_sure: "Ви впевнені?"

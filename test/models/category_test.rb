@@ -11,7 +11,7 @@ class CategoryTest < ActiveSupport::TestCase
 
   test "should create category object and save it to db" do
     category = Category.create(name:"Food", description: "Money spent on food.")
-    assert_equal(category.description, Category.find(category.id).description, "There is problem with object creation")
+    assert_equal(category.description, Category.find(category.id).description, "There is a problem with object creation")
   end
 
   # Tests model validation

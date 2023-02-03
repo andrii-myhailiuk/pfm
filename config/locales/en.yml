@@ -31,3 +31,36 @@
 
 en:
   hello: "Hello world"
+  # Expences/Incomes types
+  income: "Incomeeeee"
+  passive_income: "Passive Income"
+  special_income: "Special Income" #Lotteries, gambling etc
+  expense: "Expense"
+  special_expense: "Special Expense"
+  state_expense: "State Expense" # Taxes, fines etc
+  charity: "Charity"
+  # Buttons
+  create: "Create"
+  destroy: "Destroy"
+  # Operations
+  operations: "Operations"
+  new_operation: "New operation"
+  show_operation: "Show this operation"
+  edit_operation: "Edit this operation"
+  destroy_operation: "Destroy this operation"
+  amount: "Amount"
+  description: "Description"
+  otype: "Operation type"
+  odate: "Operation date"
+  name: "Name"
+  back_to_operations: "Back to operations"
+  # Categories
+  category: "Category"
+  categories: "Categories"
+  new_category: "New category"
+  show_category: "Show this ocategory"
+  edit_category: "Edit this category"
+  editing_category: "Editing category"
+  back_to_categories: "Back to categories"
+  # Delete
+  are_u_sure: "Are you sure?"

@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1><%= t(:operations) %></h1>
+
+<div id="operations">
+  <% @operations.each do |operation| %>
+    <%= render operation %>
+    <p>
+      <%= link_to t(:show_operation), operation %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to t(:new_operation), new_operation_path %>
