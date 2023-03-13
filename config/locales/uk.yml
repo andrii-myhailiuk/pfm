@@ -33,3 +33,5 @@ uk:
   back_to_categories: "До категорій"
   # Delete
   are_u_sure: "Ви впевнені?"
+  report_by_category_button: "Графік"
+  report_by_dates_button: "По датам"

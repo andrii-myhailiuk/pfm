@@ -13,7 +13,7 @@ class OperationsController < ApplicationController
 
   # GET /operations/new
   def new
-    @operation = Operation.new
+    @operation = Operation.new(odate: Date.today)
   end
 
   # GET /operations/1/edit
@@ -23,7 +23,7 @@ class OperationsController < ApplicationController
   # POST /operations or /operations.json
   def create
     @operation = Operation.new(operation_params)
-
+    byebug
     respond_to do |format|
       if @operation.save
         format.html { redirect_to operation_url(@operation), notice: "Operation was successfully created." }

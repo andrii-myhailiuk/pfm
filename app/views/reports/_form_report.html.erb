@@ -1,0 +1,23 @@
+<%= form_with url: false do |form| %>
+   <div>
+    <%= form.label t(:start_date), style: "display: block" %>
+    <%= form.date_field :start_date %>
+  </div>
+  <div>
+    <%= form.label t(:end_date), style: "display: block" %>
+    <%= form.date_field :end_date %>
+  </div>
+  <div>
+    <%= form.label t(:otype), style: "display: block" %>
+    <%= form.select :otype, @otypes_options %>
+  </div> 
+  <div>
+    <%= form.label t(:category), style: "display: block" %>
+    <%= form.select :category_id, @category_options, include_blank: true %>
+  </div>
+
+  <div>
+    <%= form.submit t(:report_by_dates_button), formaction: reports_report_by_dates_path, data: { turbo: false }, class: 'button is-primary' %>
+    <%= form.submit t(:report_by_category_button), formaction: reports_report_by_category_path, data: { turbo: false }, class: 'button' %>
+  </div>
+<% end %>

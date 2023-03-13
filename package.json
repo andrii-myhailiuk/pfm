@@ -1,0 +1,12 @@
+{
+  "name": "pfm",
+  "version": "1.0.0",
+  "description": "Personal finance manager",
+  "main": "index.js",
+  "repository": "git@github.com:andrii-myhailiuk/pfm.git",
+  "author": "Andrii Mykhailiuk <andriimyk@vivaldi.net>",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.9.4"
+  }
+}

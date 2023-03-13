@@ -32,7 +32,7 @@
 en:
   hello: "Hello world"
   # Expences/Incomes types
-  income: "Incomeeeee"
+  income: "Income"
   passive_income: "Passive Income"
   special_income: "Special Income" #Lotteries, gambling etc
   expense: "Expense"
@@ -64,3 +64,8 @@ en:
   back_to_categories: "Back to categories"
   # Delete
   are_u_sure: "Are you sure?"
+  # Reports
+  report_by_category_button: "Create Chart"
+  report_by_dates_button: "Report By Dates"
+  start_date: "Start of period"
+  end_date: "End of period"
